@@ -1,0 +1,53 @@
+STARTING GitHub BASH
+
+	1	shift-right click your folder
+
+	2	select "Git Bash Here" from the drop-down menu
+
+
+UPLOADING NEW PROJECT
+
+	1	git init	//Selects current file //
+
+	2	git add -A  		//Adds all contents of file to selection //
+	
+	3	***Exit Git Bash, start Git Bash again and repeat steps 1 and 2***
+	
+	4	git commit -m "name of file" 		//Commits selection of file //
+
+	5	git remote add origin https://github.com/username/repositoryname 	//Adds location of repository and selects master //
+
+	6	***Enter username and password if the GitHUb window appears and click OK**
+	
+	7	git push -u origin master 	//Pushes master to github server which places package in the specified repository and 
+												   creates a new branch, the "trunk" //
+
+UPLOADING UPDATES AND MODIFICATIONS
+
+	1	git add -A	 //adds the files//
+
+	2	git commit -m "some title"	 //name the changes you are making//
+
+	3	git push	 //pushes to the server//
+
+
+GITHUB SERVER STRUCTURE
+Upstream(Like a tree)
+
+
+ Trunk/Master branch  ------------- Commit a ------------ Commit b
+
+                     \
+                 
+	               \
+                  
+		         \
+                     
+		           \ -------- Commit c ------------- Commit d
+
+
+EXTRAS
+
+	1	git config core.autocrlf true //Use upon opening Git Bash to turn off LF compatability warnings,
+										 as this applies to Unix systems //
+	2	***right click to paste instead of ctrl+v***
